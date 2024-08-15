@@ -1,4 +1,4 @@
-import { SimpleWidget } from "@/components"
+import { SimpleWidget } from "@/components";
 
 const page = () => {
   return (
@@ -6,11 +6,11 @@ const page = () => {
       <h1 className="mt-2 text-3xl">Dashboard</h1>
       <span className="text-xl">Informacion general</span>
 
-      <div className="flex flex-wrap p-2">
+      <div className="flex flex-wrap p-2 items-center justify-center">
         <SimpleWidget />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
